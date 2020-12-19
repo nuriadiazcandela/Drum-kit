@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: fantasy;
+}
+body {
+  background-image: url('../images/studio.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.keys {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50vh;
+}
+.key {
+  border: solid 2px black;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  margin: 5px;
+}
