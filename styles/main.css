@@ -19,10 +19,17 @@ body {
 }
 .key {
   border: solid 2px black;
+  border-radius: 5%;
   display: flex;
   align-items: center;
   width: 100px;
   height: 100px;
   justify-content: center;
   margin: 5px;
+  transition: all 0.07s;
+}
+.playing {
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 10px #ff6060;
 }
